@@ -1,0 +1,45 @@
+
+body {
+    display: block;
+    margin: auto;
+    background-color: #F2EFEE;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Corben', Georgia, Times, serif;
+    text-shadow: 1px 1px 1px #ccc;
+    text-decoration-style: solid
+}
+p, div {
+    font-family: 'Nobile', Helvetica, Arial, sans-serif;
+}
+
+.header {
+    border-style: solid;
+    border-width: 30px;
+    border-color: #201D1C;
+}
+
+.content_area {
+}
+
+.content_area #content_logo a {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content_area #content_logo a h1 {
+    display: inline-block;
+    color: #201D1C;
+}
+
+.footer {
+
+}
+
+img {
+    display: block;
+    margin: auto;
+}
